@@ -12,7 +12,7 @@ def string_info(string):                    # преобразование ст�
 def is_contains(string,list_to_search):     # проверка на содержимое
     count_calls()
     for i in range(len(list_to_search)):
-        if string.lower() in list_to_search[i].lower():
+        if string.lower() == list_to_search[i].lower():
             return True
     else:
         return False
